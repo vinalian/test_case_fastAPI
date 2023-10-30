@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "task-app"
+version = "0.1.0"
+description = ""
+authors = ["vios <vinalian23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+fastapi = "^0.104.1"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.22"}
+psycopg2 = "^2.9.9"
+asyncpg = "^0.28.0"
+pandas = "^2.1.2"
+openpyxl = "^3.1.2"
+python-dotenv = "^1.0.0"
+alembic = "^1.12.1"
+black = "^23.10.1"
+uvicorn = "^0.23.2"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
